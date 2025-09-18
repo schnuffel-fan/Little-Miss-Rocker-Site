@@ -1,0 +1,621 @@
+@media screen
+{
+/*GLOBAL*/
+	body
+	{
+		margin:0px;
+		padding:0px;
+		background-color:#332f30;
+	}
+	
+	form
+	{
+		padding:0px;
+		margin:0px;
+	}
+	 a
+	{
+		color:#C33B39;
+		text-decoration:none;
+	}
+	
+/*MAIN*/	
+	div.main
+	{
+		position:relative;
+		margin:auto;
+		width:808px;
+	}
+	
+/*HEAD*/	
+	div.main div.head
+	{
+		background-image:url(images/inhead.gif);
+		background-repeat:no-repeat;
+		overflow:hidden;
+		width:808px;
+		height:313px;
+	}
+
+	div.main div.head h1
+	{
+		display:none;
+	}
+	
+	div.main h4
+	{
+		font-family:Arial, Sans-Serif;
+		font-size:14px;
+		font-weight: bold;
+		color:#C33B39;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	
+	div.main p
+	{
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+	
+	div.main div.head img
+	{
+		overflow:hidden;
+		
+		border:0px;
+	}
+
+/*CONTENT*/
+	div.main div.content
+	{
+		width:700px;
+		
+		margin:auto;
+		padding:30px;
+		
+		background-color:#edede6;
+		
+		font-family:Arial, Sans-Serif;
+		font-size:12px;
+	}
+
+/*INTRO*/
+	div.main div.content div.intro
+	{
+		float:left;
+		clear:left;
+		
+		width:320px;
+		
+		font-family:Arial, Courier, Sans-Serif;
+		font-size:12px;	
+		
+		line-height:16px;	
+		
+	}
+	
+	div.main div.content div.intro div.image
+	{
+		width:320px;
+		height:240px;
+		
+		background-image:url(images/inhithere.gif);
+		background-repeat:no-repeat;
+		
+		overflow:hidden;		
+	}
+
+	div.main div.content div.intro div.image div.text
+	{
+		display:none;
+	}
+
+	div.main div.content div.rtss
+	{
+		float:right;
+		clear:right;
+	}
+
+
+/*SCREENSAVERS*/	
+	div.main div.content div.rtss div.screensavers
+	{
+	}
+
+	div.main div.content div.rtss div.screensavers div.image
+	{ 
+		width:352px;
+		height:206px;
+		
+		background-image:url(images/inscreensavers.gif);
+		background-repeat:no-repeat;
+		
+		overflow:hidden;
+	}
+
+	div.main div.content div.rtss div.screensavers div.image h2
+	{
+		display:none; 
+	}
+
+	div.main div.content div.rtss div.screensavers div.image img
+	{
+		border:0px;
+		overflow:hidden;
+	}
+	
+	div.main div.content div.rtss div.screensavers div.menu
+	{
+		display:none;
+	}		
+
+/*RINGTONES*/
+	div.main div.content div.rtss div.ringtones
+	{
+	}
+	
+	div.main div.content div.rtss div.ringtones div.image
+	{ 
+		width:352px;
+		height:130px;
+		
+		background-image:url(images/inringtones.gif);
+		background-repeat:no-repeat;
+		
+		overflow:hidden;
+	}
+
+	div.main div.content div.rtss div.ringtones div.image h2
+	{
+		display:none; 
+	}
+
+	div.main div.content div.rtss div.ringtones div.image img
+	{
+		border:0px;
+		overflow:hidden;
+	}
+	
+	div.main div.content div.rtss div.ringtones div.menu
+	{
+		display:none;
+	}		
+
+/*WALLPAPERS*/	
+	div.main div.content div.wallpapers
+	{
+		margin-top:30px;
+		clear:both;
+	}
+	
+	div.main div.content div.wallpapers div.image
+	{ 
+		width:673px;
+		height:175px;
+		
+		background-image:url(images/inwallpapers.gif);
+		background-repeat:no-repeat;
+		
+		overflow:hidden;
+	}
+
+	div.main div.content div.wallpapers div.image h2
+	{
+		display:none; 
+	}
+
+	div.main div.content div.wallpapers div.image img
+	{
+		border:0px;
+		overflow:hidden;
+	}
+	
+	div.main div.content div.wallpapers div.menu
+	{
+		display:none;
+	}
+		
+/*VIDEOS*/
+	div.main div.content div.videos
+	{
+		position:relative;
+		
+		margin-top:30px;
+
+		float:left;
+		clear:left;
+	}
+
+	div.main div.content div.videos div.image
+	{ 
+		width:324px;
+		height:206px;
+		
+		background-image:url(images/invideos.gif);
+		background-repeat:no-repeat;
+		
+		overflow:hidden;
+	}
+
+	div.main div.content div.videos div.image h2
+	{
+		display:none; 
+	}
+
+	div.main div.content div.videos div.image img
+	{
+		border:0px;
+		overflow:hidden;
+	}
+	
+	div.main div.content div.videos div.menu
+	{
+		display:none;
+	}	
+	
+/*RINGTOONS*/
+	div.main div.content div.ringtoons
+	{
+		margin-top:30px;
+		
+		float:right;
+		clear:right;
+	}
+	
+	div.main div.content div.ringtoons div.image
+	{ 
+		width:332px;
+		height:205px;
+		
+		background-image:url(images/inringtoons.gif);
+		background-repeat:no-repeat;
+		
+		overflow:hidden;
+	}
+	
+	div.main div.content div.ringtoons div.image h2
+	{
+		display:none; 
+	}	
+
+	div.main div.content div.ringtoons div.image img
+	{
+		border:0px;
+		overflow:hidden;
+	}	
+	
+	div.main div.content div.ringtoons div.menu
+	{
+		display:none;
+	}	
+	
+/*FOOT*/
+	div.main div.foot
+	{
+		position:relative;
+		
+		background-image:url(images/infoot.gif);
+		background-repeat:no-repeat;
+		
+		clear:both;
+		
+		overflow:hidden;
+		
+		width:808px;
+		height:111px;
+
+		font-family:Arial,Sans-Serif;
+		font-size:11px;
+		font-variant:small-caps;
+
+		color:#a09f90;
+	}
+
+	div.main div.foot img
+	{
+		overflow:hidden;
+		
+		border:0px;
+	}
+	
+	div.main div.foot a.yomegologo
+	{
+		background-image:url(images/yomegologo.gif);
+		background-repeat:no-repeat;
+
+		display:block;
+		
+		text-decoration:none;
+		
+		overflow:hidden;
+
+		position:absolute;
+
+		width:106px;
+		height:26px;
+		
+		right:140px;
+		top:20px;
+	}
+
+	div.main div.foot a.yomegologo *
+	{
+		display:none;
+	}
+
+	div.main div.foot a.wapmusic
+	{
+		background-image:url(images/wapmusic.gif);
+		background-repeat:no-repeat;
+
+		display:block;
+		
+		text-decoration:none;
+		
+		overflow:hidden;
+
+		position:absolute;
+
+		width:76px;
+		height:76px;
+		
+		right:350px;
+		top:20px;
+	}
+
+	div.main div.foot a.wapmusic *
+	{
+		display:none;
+	}
+
+	div.main div.foot div.powered
+	{
+		overflow:hidden;
+
+		position:absolute;
+
+		right:250px;
+		top:25px;
+		
+		font-size:10px;
+	}
+	
+	div.main div.foot div.menu
+	{
+		position:absolute;
+		
+		left:40px;
+		top:25px;
+	}
+	
+	div.main div.foot div.menu a
+	{
+		color:#a09f90;
+		text-decoration:none;
+	}
+	
+	div.main div.foot div.menu a:hover
+	{
+		color:#bc0202;
+		text-decoration:underline;
+	}
+	
+/*PRODUCT DETAILS*/
+	div.product
+	{
+		width:400px;
+		
+		background-color:#d8d8d0;
+
+		position:relative;
+		
+		font-family:Arial, Sans-Serif;
+	}	
+	
+	div.product div.head
+	{
+		background-image:url(images/pdhead.gif);
+		background-repeat:no-repeat;
+		
+		overflow:hidden;
+		
+		width:400px;
+		height:160px;
+	}
+
+	div.product div.foot
+	{
+		background-image:url(images/pdfoot.gif);
+		background-repeat:no-repeat;
+		
+		overflow:hidden;
+		
+		width:400px;
+		height:140px;
+		
+		position:relative;
+	}	
+
+	div.product div.preview
+	{
+		float:right;
+		
+		width:100px;
+		
+		margin:16px;
+	}
+	
+	div.preview h4
+	{
+		font-family:Arial, Sans-Serif;
+		font-size:14px;
+		font-weight: bold;
+		color:#C33B39;
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	div.product div.enteryourdetails
+	{
+		margin-bottom:8px;
+
+		width:153px;
+		height:21px;
+
+		background-image:url(images/pdenteryourdetails.gif);
+	}
+	
+	div.product div.separator
+	{
+		background-image:url(images/pdsep.gif);
+		background-repeat:no-repeat;
+		
+		overflow:hidden;
+		
+		width:400px;
+		height:50px;
+	}	
+	
+	div.product label
+	{
+		margin-top:8px;
+		margin-bottom:2px;
+		display:block;
+		font-size:12px;
+		font-weight:bold;
+	}
+	
+	div.product select
+	{
+		width:230px;
+	}
+	
+	div.product .warning
+	{
+		font-size:12px;
+		
+		color:#c33b39;
+		
+		margin-top:16px;
+		display:block;
+	}
+	
+	div.product .button
+	{
+		margin-top:8px;
+	}
+	
+	div.product div.terms
+	{
+		background-color:#edede6;
+		
+		padding:8px;
+		
+		font-size:12px;
+	}
+
+	div.product div.terms h4
+	{
+		color:#ed1c24;
+		
+		padding:0px;
+		
+		margin:0px;
+		margin-bottom:4px;		
+		
+		font-size:14px;
+	}
+	
+	div.product div.texttobuy
+	{
+		background-image:url(images/pdtexttobuy.gif);
+		background-repeat:no-repeat;
+		overflow:hidden;
+		width:153px;
+		height:21px;
+		margin-bottom:16px;
+	}
+	
+	div.button
+	{
+		margin-top:16px;
+	}
+	
+/*TERMS AND CONDS*/
+	div.tandc
+	{
+	}
+	
+	div.tandc div.head
+	{
+		background-image:url(images/tchead.gif);
+		
+		width:300px;
+		height:60px;
+		
+		overflow:hidden;
+		
+		margin-bottom:16px;
+	}
+
+	div.tandc div.head *
+	{
+		display:none;
+	}
+	
+	div.tandc h4
+	{
+		color:#bc0200;
+		margin-bottom:4px;
+	}
+	
+/*HELP*/
+	div.help
+	{
+	}
+	
+	div.help div.head
+	{
+		background-image:url(images/hehead.gif);
+		
+		width:300px;
+		height:60px;
+		
+		overflow:hidden;
+		
+		margin-bottom:16px;
+	}
+
+	div.help div.head *
+	{
+		display:none;
+	}
+	
+	div.help h4
+	{
+		color:#bc0200;
+		margin-bottom:4px;
+	}
+	
+/*CONTACT*/
+	div.contact
+	{
+	}
+	
+	div.contact div.head
+	{
+		background-image:url(images/cuhead.gif);
+		
+		width:300px;
+		height:60px;
+		
+		overflow:hidden;
+		
+		margin-bottom:16px;
+	}
+
+	div.contact div.head *
+	{
+		display:none;
+	}
+}
